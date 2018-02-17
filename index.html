@@ -15,7 +15,7 @@
 
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="https://github.com/RickBr0wn/tribute_website"><i class="fab fa-github"></i>Rick Brown<span class="sr-only">(current)</span></a></a>
+        <a class="navbar-brand" href="https://github.com/RickBr0wn/tribute_website"><i class="fab fa-github"></i> Rick Brown<span class="sr-only">(current)</span></a></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,7 +33,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Dice Roll Simulator</h1>
-          <p class="lead">A Simulation of a dice roll. Written in Javascript.</p>
+          <p class="lead">A Simulation of a dice roll. Written in Javascript, using a Sprite Sheet.</p>
         </div>
     </div>
     <!-- END OF HEADER -->
@@ -43,22 +43,13 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="row">
-                    <canvas id="canvas" width="100" height="100"></canvas>
+                    <canvas id="canvas"></canvas>
                     <button onclick="buttonClick()" id="roll-button">Roll</button>
                 </div>
-                <div class="row">
-                    <p>The Dice Roll is:</p>
-                    <div id="roll-number" class="number-roll">7</div>
-                </div>
             </div>
-            <div class="col-md-4">
-                
-            </div>
-            <div class="col-md-4">
-                
-            </div>
+            <div class="col-md-8"></div> <!-- EMPTY DIV -->
         </div>
-    </div>
+    </div>      
     <!-- END OF CONTENT -->
 
     <!-- HTML ENDS HERE -->
